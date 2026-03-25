@@ -1,10 +1,5 @@
 Lightlanguage portal v1 25-3-2026
 
-<video autoplay loop muted playsinline width="400">
-  <source src="ll-portal.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ![Portal Demo](ll-portal.gif)
     
 is officially alive now:
