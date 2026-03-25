@@ -1,3 +1,9 @@
+# ✨ My Magical Portal ✨
+
+💫 **See the portal in action:** [Click here!](https://ix-song.github.io/my-magical-portals/)  
+
+Below is the explanation of what’s going on in this portal:
+
 # Lightlanguage Portal v1 – 25-3-2026
 
 
