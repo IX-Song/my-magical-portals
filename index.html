@@ -20,7 +20,20 @@
   padding-top:50px;
 ">
    <h1 style="text-shadow: 0 0 10px rgba(255, 150, 200, 0.8);" id="title">Hello, GitHub 👋</h1>
-<button onclick="changeText()">Click me</button>
+<style>
+  #title {
+    color: white;
+    text-shadow: 0 0 10px rgba(255,150,200,0.8);
+    animation: glow 3s ease-in-out infinite;
+  }
+
+  @keyframes glow {
+    0% { text-shadow: 0 0 5px rgba(255,150,200,0.4); }
+    50% { text-shadow: 0 0 20px rgba(255,150,200,1); }
+    100% { text-shadow: 0 0 5px rgba(255,150,200,0.4); }
+  }
+</style>
+      <button onclick="changeText()">Click me</button>
     </div>
 <script>
   function changeText() {
