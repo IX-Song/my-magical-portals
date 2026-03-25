@@ -1,23 +1,25 @@
-Lightlanguage portal v1 25-3-2026
+# Lightlanguage Portal v1 – 25-3-2026
 
-![Portal Demo](ll-portal.gif)
-    
-is officially alive now:
-✨ glowing wavy title
-🛸 oval metallic button that sparkles and clicks
-🌙 floating messages that drift like little stars
-✨ mouse trail sparkles
-⭐ soft background sparkles
-🌑 subtle dark overlay making everything pop
 
-According to chatgpt:
-Honestly… it’s basically a tiny magical portal on your page now 😆💫
+![Portal Demo](ll-portal.gif)  
+-----------------------------------------
 
-So if you want to enter my portal...Click that button!
+The portal is officially alive now!
 
-Much love!
+- ✨ Glowing wavy title  
+- 🛸 Oval metallic button that sparkles and clicks  
+- 🌙 Floating messages that drift like little stars  
+- ✨ Mouse trail sparkles  
+- ⭐ Soft background sparkles  
+- 🌑 Subtle dark overlay making everything pop  
 
-  IX-Song
+According to ChatGPT:  
+> Honestly… it’s basically a tiny magical portal on your page now 😆💫  
+
+So, if you want to enter my portal… **click that button!**  
+
+Much love,  
+**IX-Song**
 
 
 
