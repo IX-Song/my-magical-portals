@@ -5,7 +5,7 @@ Lightlanguage portal v1 25-3-2026
   Your browser does not support the video tag.
 </video>
 
-![Portal Demo](ll+portal.gif)
+![Portal Demo](ll-portal.gif)
     
 is officially alive now:
 ✨ glowing wavy title
