@@ -4,7 +4,7 @@
 
 Below is the explanation of what’s going on in this portal:
 
-# Lightlanguage Portal v1 – 25-3-2026
+Lightlanguage Portal v1 – 25-3-2026
 
 
 ![Portal Demo](ll-portal.gif)  
