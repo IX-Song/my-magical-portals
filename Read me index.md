@@ -19,7 +19,8 @@ According to ChatGPT:
 So, if you want to enter my portal… **click that button!**  
 
 Much love,  
-🌙✨🛸 IX-Song 💫
 
+
+<img width="250" height="150" alt="IX-Song" src="https://github.com/user-attachments/assets/afc3afcc-cc76-4eed-a308-e4ff96e60a2e" />
 
 
