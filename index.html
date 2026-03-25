@@ -2,12 +2,12 @@
 <html>
   <body style="text-align:center; font-family:sans-serif; margin-top:50px;">
     <h1>Hello, GitHub 👋</h1>
-    <button onclick="sayHi()">Click me</button>
+   <button onclick="changeText()">Click me</button>
 
     <script>
-      function sayHi() {
-        alert("Hey! This is working 🎉");
-      }
+       function changeText() {
+    document.getElementById("title").innerText = "✨ Something shifted ✨";
+  }
     </script>
   </body>
 </html>
