@@ -18,7 +18,7 @@
       position: relative;
     }
 
-    /* Portal title glow */
+    /* Portal title glow with soft radial behind */
     #title {
       margin-top: 50px;
       font-size: 3em;
@@ -26,6 +26,21 @@
       text-shadow: 0 0 10px rgba(255,150,200,0.8);
       animation: glow 12s ease-in-out infinite;
       transition: transform 0.7s ease;
+      position: relative;
+      z-index: 2;
+    }
+
+    #title::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(255,150,200,0.3) 0%, transparent 70%);
+      border-radius: 50%;
+      z-index: -1;
     }
 
     #title:hover {
@@ -55,7 +70,7 @@
 
     #magicBtn.clicked {
       transform: scale(1.2);
-      animation: glowBtn 0.5s ease-in-out;
+      animation: glowBtn 1.5s ease-in-out; /* longer glow */
     }
 
     #magicBtn::after {
@@ -71,12 +86,12 @@
     }
 
     #magicBtn.clicked::after {
-      animation: spark 5.5s linear forwards;
+      animation: spark 7s linear forwards; /* stars last longer */
     }
 
     @keyframes glowBtn {
       0% { box-shadow: 0 0 10px gold; }
-      50% { box-shadow: 0 0 25px gold, 0 0 40px orange; }
+      50% { box-shadow: 0 0 30px gold, 0 0 50px orange; }
       100% { box-shadow: 0 0 10px gold; }
     }
 
@@ -87,7 +102,7 @@
       }
       100% {
         opacity: 0;
-        transform: translateX(-50%) translateY(-200px) scale(2);
+        transform: translateX(-50%) translateY(-250px) scale(2);
       }
     }
 
@@ -128,28 +143,34 @@
   </style>
 </head>
 <body>
-  <h1 id="title">Lightlanguage Portal</h1>
+  <h1 id="title">✨ Lightlanguage Portal ✨</h1>
   <button id="magicBtn">Click me!</button>
   <p id="msg"></p>
 
   <script>
-    // Button sparkle and text
+    // Button sparkle and timed text
     const magicBtn = document.getElementById("magicBtn");
     const msg = document.getElementById("msg");
     const messages = [
       "✨ Energy flows! ✨",
       "🌙 Stars awaken… 🌙",
       "💫 Light dances! 💫",
-      "🔥 Portal glows! 🔥"
+      "🔥 Portal glows! 🔥",
+      "🥰 Ease your heart! 🥰",
+      "😁 Joy in Being! 😁",
+      "🔆 Sun shingin bright!🔆"
     ];
 
     magicBtn.addEventListener("click", () => {
-      // sparkle animation
+      // button sparkle animation
       magicBtn.classList.add("clicked");
-      setTimeout(() => magicBtn.classList.remove("clicked"), 1000);
+      setTimeout(() => magicBtn.classList.remove("clicked"), 1500); // matches glow length
 
       // show random message
       msg.innerText = messages[Math.floor(Math.random() * messages.length)];
+
+      // clear message after 10 seconds
+      setTimeout(() => { msg.innerText = ""; }, 10000);
     });
 
     // Mouse trail sparkles
