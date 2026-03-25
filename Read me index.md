@@ -1,9 +1,7 @@
 Lightlanguage portal v1 25-3-2026
 
-<video autoplay loop muted playsinline width="400">
-  <source src="ll+portal.gif" type="video/mp4">
-</video>
-
+![Portal Demo](ll+portal.gif)
+    
 is officially alive now:
 ✨ glowing wavy title
 🛸 oval metallic button that sparkles and clicks
