@@ -34,7 +34,7 @@ Much love,
 ### 💾 Download & Try Locally
 You can download the portal and try it on your own computer:
 
-CLICK - - HERE - - - → ## 🌟 💾 Download Portal ZIP 🌟
+CLICK - - HERE - - - → ## 🌟  [💾 Download Portal ZIP](https://github.com/IX-Song/my-magical-portals/archive/refs/heads/main.zip) 🌟 
 1. Download the ZIP
 2. Unpack the ZIP
 	- On Windows: Right-click → Extract All…
