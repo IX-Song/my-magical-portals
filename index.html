@@ -17,7 +17,19 @@
       overflow: hidden;
       position: relative;
     }
-
+/* Dark overlay over background */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); /* 0.4 = slightly darker, 0.6 = more dark */
+  pointer-events: none;
+  z-index: 1;
+}
+    
     /* Portal title glow with soft radial behind */
     #title {
       margin-top: 50px;
